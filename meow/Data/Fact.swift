@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+struct MeowFacts: Decodable {
+    let data : [String]
+}
